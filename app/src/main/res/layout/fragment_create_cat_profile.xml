@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.cat.profile.fragment_create_cat_profile">
+
+        <!-- Title or Header -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Cat Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ImageView for displaying the cat photo -->
+        <ImageView
+            android:id="@+id/cat_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/baseline_add_circle_24"
+            android:contentDescription="Cat Photo" />
+
+        <!-- Button to Upload Cat Photo -->
+        <Button
+            android:id="@+id/upload_image_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Cat Photo"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Cat Name Input -->
+        <EditText
+            android:id="@+id/cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cat Name"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- Cat Age Input -->
+        <EditText
+            android:id="@+id/cat_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cat Age (in years)"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- Cat Breed Input -->
+        <EditText
+            android:id="@+id/cat_breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cat Breed"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp" />
+
+        <!-- Cat Description Input -->
+        <EditText
+            android:id="@+id/cat_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cat Description"
+            android:layout_marginBottom="24dp"
+            android:padding="16dp"
+            android:lines="4"
+            android:maxLines="5"
+            android:inputType="textMultiLine" />
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Profile"
+            android:textSize="18sp"
+            android:padding="16dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

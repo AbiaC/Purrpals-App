@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Array for theme entries (displayed in the UI) -->
+    <string-array name="theme_entries">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+        <item>System Default</item>
+    </string-array>
+
+    <!-- Array for theme values (used in code) -->
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+</resources>

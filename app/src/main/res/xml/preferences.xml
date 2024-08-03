@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Notifications -->
+    <PreferenceCategory
+        android:title="Notifications">
+
+        <SwitchPreferenceCompat
+            android:key="notifications_enabled"
+            android:title="Enable Notifications"
+            android:summary="Receive notifications about app updates" />
+
+    </PreferenceCategory>
+
+    <!-- App Preferences -->
+    <PreferenceCategory
+        android:title="App Preferences">
+
+        <ListPreference
+            android:key="theme"
+            android:title="Theme"
+            android:summary="Select app theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values" />
+
+
+
+    </PreferenceCategory>
+
+    <!-- About -->
+    <PreferenceCategory
+        android:title="About">
+
+        <Preference
+            android:key="about"
+            android:title="About Us"
+            android:summary="Learn more about the app" />
+
+    </PreferenceCategory>
+<!--    Logout-->
+    <PreferenceCategory
+            android:title="Logout">
+
+            <Preference
+                android:key="logout"
+                android:title="Logout"
+                android:summary="Logout Current Account" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

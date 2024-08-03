@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Purrpals App</string>
+    <string name="title_activity_main_page">main_page</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_text">1. User Responsibilities: \n\n Owners are responsible for evaluating and determining the suitability of rentees for cat rental. Owners must conduct necessary background checks on rentees. \n\n Owners must manage and supervise the care of their cats during rentals. \n\n Owners must ensure the health and safety of their cats during rentals.\n\n Rentees are responsible for any health risks, injuries, or illnesses that may occur to the cats during the rental period.\n\n Rentees must take care of the rented cats and follow any instructions provided by the owners.\n\n Rentees must cover any travel and subsistence costs related to the rental.\n\n Rentees must respect the privacy of owners and their property.\n\n 2. Risk Assumption:\n\n Both owners and renters assume all risks associated with the rental, including property damage, theft, and loss.\n\n Users agree that the app has no liability for any risks arising from the rental arrangements.\n\n 3. Liability:\n\n The app and its employees, agents, and subcontractors are not liable for any losses resulting from a breach of these terms or failure to follow instructions.\n\n The app is responsible for:\n\n i. Death or personal injury caused by the app\'s negligence.\n\n ii. Fraud or fraudulent misrepresentation by the app.\n\n iii. Intentional misconduct by the app\'s employees.\n\n</string>
+
+
+    <!-- Cat list -->
+    <string-array name="cat_types">
+        <item>British Shorthair</item>
+        <item>Siamese</item>
+        <item>Persian</item>
+        <!-- Add more cat types as needed -->
+    </string-array>
+
+</resources>

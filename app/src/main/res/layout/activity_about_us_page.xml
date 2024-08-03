@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="15dp"
+        android:text="About Us"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="4dp"
+        android:padding="8dp"
+        android:text="PurrPals is an app designed to connect cat owners with pet lovers who want to rent cats for hours or days. This innovative platform addresses a common challenge encountered by cat owners who require care for their pets during their absence. This is done by connecting them with individuals desiring cat companionship without the long-term commitment. PurrPals seeks to establish a win-win situation by offering convenience for cat owners and delight for pet enthusiasts. \n\nOur business aims to address this issue by offering short-term cat rentals for companionship. This service is designed to bring joy to cat enthusiasts while also presenting a novel approach to pet adoption and foster care, potentially facilitating permanent homes for many cats."
+        android:textSize="20sp" />
+
+</LinearLayout>

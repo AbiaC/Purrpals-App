@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.owner.fragment_pet_owner_page">
+
+    <TextView
+        android:id="@+id/pet_owner_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="40dp"
+        android:text="Pet Owner Page"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/create_cat_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="25dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Create Cat Profile"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/view_cat_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="25dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="View Cat Profile"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/post_cat_rent_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="25dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Post Cat for Rent"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/view_cat_schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="25dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="View Cat Schedule"
+        android:textSize="18sp" />
+
+</LinearLayout>

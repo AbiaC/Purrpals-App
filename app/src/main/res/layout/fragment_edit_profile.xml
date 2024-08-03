@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- User Image -->
+        <ImageView
+            android:id="@+id/userImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/circle_background"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- Edit Username -->
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Edit Birthdate -->
+        <EditText
+            android:id="@+id/editBirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Birthdate (MM-DD-YYYY)"
+            android:inputType="date"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Edit Phone Number -->
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number ((123) 456-7890)"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Edit Email -->
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:clickable="false"
+            android:enabled="false"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Edit Password -->
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:enabled="false"
+            android:clickable="false"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveProfileButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

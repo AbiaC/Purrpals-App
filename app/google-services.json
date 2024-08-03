@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132958383221",
+    "project_id": "purrpals-app-87bcd",
+    "storage_bucket": "purrpals-app-87bcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132958383221:android:a0b9058c09fd5f3bbd9c3c",
+        "android_client_info": {
+          "package_name": "com.example.purrpalsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe-MNKwRzYPYpkv6IgzTfj6Um5SlEIHA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
